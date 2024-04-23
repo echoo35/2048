@@ -1,0 +1,103 @@
+/* Genel sayfa stilini belirler */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Metin fontu Arial, Helvetica, ya da bir sans-serif fontu olarak ayarlanır. */
+    text-align: center; /* Metinlerin sayfa ortasında hizalanması sağlanır. */
+}
+
+/* Yatay çizginin stilini belirler */
+hr {
+    width: 500px; /* Yatay çizginin genişliği 500 piksel olarak ayarlanır. */
+}
+
+/* Oyun tahtasının stilini belirler */
+#board {
+    width: 400px; /* Tahta genişliği 400 piksel olarak ayarlanır. */
+    height: 400px; /* Tahta yüksekliği 400 piksel olarak ayarlanır. */
+    background-color: #cdc1b5; /* Tahta arka plan rengi belirlenir. */
+    border: 6px solid #bbada0; /* Tahtanın kenarlığı ve rengi belirlenir. */
+    margin: 0 auto; /* Tahtanın sayfa içinde yatay olarak ortalanması sağlanır. */
+    display: flex; /* Flexbox modeli kullanılarak içeriklerin düzeni sağlanır. */
+    flex-wrap: wrap; /* İçeriklerin sığmaması durumunda sarma (wrap) yapılır. */
+}
+
+/* Karelerin stilini belirler */
+.tile {
+    width: 90px; /* Her karenin genişliği 90 piksel olarak ayarlanır. */
+    height: 90px; /* Her karenin yüksekliği 90 piksel olarak ayarlanır. */
+    border: 5px solid #bbada0; /* Her karenin kenarlığı ve rengi belirlenir. */
+    font-size: 40px; /* Metin boyutu 40 piksel olarak ayarlanır. */
+    font-weight: bold; /* Metin kalınlığı kalın (bold) olarak ayarlanır. */
+    display: flex; /* Flexbox modeli kullanılarak içeriklerin düzeni sağlanır. */
+    justify-content: center; /* İçeriklerin yatayda ortalanması sağlanır. */
+    align-items: center; /* İçeriklerin dikeyde ortalanması sağlanır. */
+}
+
+/* Karelerin renklerine göre stilini belirler */
+.x2 {
+    background-color: #eee4da; /* Kare arka plan rengi belirlenir. */
+    color: #727371; /* Kare metin rengi belirlenir. */
+}
+
+.x4 {
+    background-color: #ece0ca; /* Kare arka plan rengi belirlenir. */
+    color: #727371; /* Kare metin rengi belirlenir. */
+}
+
+/* Diğer renkli kareler için benzer şekilde devam eder */
+/* ... */
+
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color: #edce71;
+    color: white;
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
